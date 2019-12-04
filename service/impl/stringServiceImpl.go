@@ -3,8 +3,8 @@ package impl
 import (
 	"errors"
 	"fmt"
-	"ocr-service/src/constant"
-	"ocr-service/src/entity"
+	"ocr-service/constant"
+	"ocr-service/entity"
 	"strings"
 )
 
@@ -26,5 +26,3 @@ func (StringService) Uppercase(s string) (string, error) {
 func (StringService) Count(s string) int {
 	return len(s)
 }
-
-

@@ -3,9 +3,9 @@ package config
 import (
 	kithttp "github.com/go-kit/kit/transport/http"
 	"net/http"
-	"ocr-service/src/endpoint"
-	"ocr-service/src/service/impl"
-	"ocr-service/src/transport"
+	"ocr-service/endpoint"
+	"ocr-service/service/impl"
+	"ocr-service/transport"
 )
 
 func MakeHttpHandler() http.Handler {
@@ -22,7 +22,5 @@ func MakeHttpHandler() http.Handler {
 		options...,
 	))
 
-
 	return mux
 }
-

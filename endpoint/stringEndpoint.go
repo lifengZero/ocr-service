@@ -3,8 +3,8 @@ package endpoint
 import (
 	"context"
 	"github.com/go-kit/kit/endpoint"
-	"ocr-service/src/dto"
-	"ocr-service/src/service"
+	"ocr-service/dto"
+	"ocr-service/service"
 )
 
 func MakeUppercaseEndpoint(svc service.StringService) endpoint.Endpoint {

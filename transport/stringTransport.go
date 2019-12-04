@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"net/http"
-	"ocr-service/src/dto"
+	"ocr-service/dto"
 )
 
 func DecodeUppercaseRequest(_ context.Context, r *http.Request) (interface{}, error) {

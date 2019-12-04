@@ -19,6 +19,6 @@ type ParentMerchantKey struct {
 	ips string
 }
 
-func (ParentMerchantKey) TableName() string  {
+func (ParentMerchantKey) TableName() string {
 	return "tbl_parent_merchant_key"
 }

@@ -4,8 +4,8 @@ import (
 	"golang.org/x/net/http2"
 	"log"
 	"net/http"
-	"ocr-service/src/config"
-	"ocr-service/src/constant"
+	"ocr-service/config"
+	"ocr-service/constant"
 )
 
 func main() {
