@@ -1,0 +1,28 @@
+# github.com/go-kit/kit v0.9.0
+github.com/go-kit/kit/endpoint
+github.com/go-kit/kit/log
+github.com/go-kit/kit/transport
+github.com/go-kit/kit/transport/http
+# github.com/go-logfmt/logfmt v0.3.0
+github.com/go-logfmt/logfmt
+# github.com/go-sql-driver/mysql v1.4.1
+github.com/go-sql-driver/mysql
+# github.com/jinzhu/gorm v1.9.11
+github.com/jinzhu/gorm
+github.com/jinzhu/gorm/dialects/mysql
+# github.com/jinzhu/inflection v1.0.0
+github.com/jinzhu/inflection
+# github.com/kr/logfmt v0.0.0-20140226030751-b84e30acd515
+github.com/kr/logfmt
+# golang.org/x/net v0.0.0-20191126235420-ef20fe5d7933
+golang.org/x/net/http/httpguts
+golang.org/x/net/http2
+golang.org/x/net/http2/hpack
+golang.org/x/net/idna
+# golang.org/x/text v0.3.1-0.20180807135948-17ff2d5776d2
+golang.org/x/text/secure/bidirule
+golang.org/x/text/transform
+golang.org/x/text/unicode/bidi
+golang.org/x/text/unicode/norm
+# google.golang.org/appengine v1.4.0
+google.golang.org/appengine/cloudsql
