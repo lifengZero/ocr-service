@@ -3,7 +3,7 @@ package impl
 import (
 	"errors"
 	"fmt"
-	"ocr-service/constant"
+	"ocr-service/config"
 	"ocr-service/entity"
 	"strings"
 )
@@ -17,7 +17,7 @@ func (StringService) Uppercase(s string) (string, error) {
 		return "", ErrEmpty
 	}
 	var user = entity.ParentMerchantKey{}
-	constant.Db.First(&user)
+	config.Db.First(&user)
 	fmt.Println(user.Id)
 	fmt.Println(user.ParentMerchantNo)
 	return strings.ToUpper(s), nil

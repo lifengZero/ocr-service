@@ -1,4 +1,4 @@
-package config
+package roule
 
 import (
 	kithttp "github.com/go-kit/kit/transport/http"
@@ -22,5 +22,8 @@ func MakeHttpHandler() http.Handler {
 		options...,
 	))
 
+	mux.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+		w.Write([]byte("hello http2"))
+	})
 	return mux
 }

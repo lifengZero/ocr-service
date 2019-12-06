@@ -1,4 +1,4 @@
-package constant
+package config
 
 import (
 	"github.com/jinzhu/gorm"
@@ -17,6 +17,4 @@ func Dbinit() {
 	Db.DB().SetMaxIdleConns(10)
 	Db.DB().SetMaxIdleConns(5)
 	Db.DB().SetConnMaxLifetime(time.Hour)
-	Db.LogMode(true)
-
 }
