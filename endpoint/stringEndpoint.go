@@ -6,6 +6,7 @@ import (
 	"ocr-service/config"
 	"ocr-service/dto"
 	"ocr-service/service"
+``
 )
 
 func MakeUppercaseEndpoint(svc service.StringService) endpoint.Endpoint {
